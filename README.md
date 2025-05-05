@@ -6,8 +6,8 @@ Envolve a criação de tabelas, inserção de dados, atualizações, deleções 
 
 ## Estrutura do Projeto
 - `/ddl/`: Scripts de criação das tabelas (DDL).
-- `/dml/`: Diagramas e prints dos resultados das consultas.
-- `/docs/`: Scripts de inserção, atualização, exclusão e consultas SQL (DML).
+- `/dml/`: Scripts de inserção, atualização, exclusão e consultas SQL (DML).
+- `/docs/`:  Diagramas e prints dos resultados das consultas. 
 
 ## Tecnologias 
 - PostgreSQL
