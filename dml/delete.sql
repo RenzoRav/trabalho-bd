@@ -1,14 +1,7 @@
--- Atualizar telefone do cliente Carlos
-UPDATE cliente
-SET telefone = '98888-9999'
-WHERE nome = 'Carlos Pereira';
+--Excluir cliente que não fez pedido
+DELETE FROM cliente
+WHERE id_cliente = 10;
 
--- Atualizar produto
-UPDATE produto
-SET estoque = estoque - 2
-WHERE nome = 'Notebook Lenovo';
-
--- Atualizar total do pedido
-UPDATE pedido
-SET total = 2000.00
-WHERE id_pedido = 2;
+--Excluir produto que não foi vendido
+DELETE FROM produto
+WHERE id_produto = 10;
